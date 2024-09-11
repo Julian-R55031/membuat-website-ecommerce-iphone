@@ -2,7 +2,8 @@
 mencoba membuat website ecommerce bertema iphone
 
 Note :
--website ini masih dalam pengembangan, belum 100% selesai
--silahkan pull request jika ada saran fitur atau semacamnya
--pull request akan dipilih sesuai dengan tema website
--masih pemula saya bang :)
+1. website ini masih dalam pengembangan, belum 100% selesai
+2. silahkan pull request jika ada saran fitur atau semacamnya
+3. pull request akan dipilih sesuai dengan tema website
+4. file script.js masih kosong
+5. masih pemula saya bang :)
