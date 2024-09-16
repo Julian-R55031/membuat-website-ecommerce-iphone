@@ -47,13 +47,13 @@ main {
     background-color: var(--primary);
 }
 
-.container-content {
+.container-content1 {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.container-content img {
+.container-content1 img {
     width: 75rem;
     height: 25rem;
 }
@@ -79,3 +79,15 @@ main {
     font: arial;
     font-size: 1rem;
 }
+
+.content2-h1 {
+    font-size: 2rem;
+}
+
+.container-content2 {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+
+
