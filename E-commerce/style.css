@@ -1,5 +1,6 @@
 *,
 :root {
+    color: #fff;
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -94,8 +95,56 @@ nav {
 
 .container-content2 {
     display: flex;
-    justify-items: center;
+    justify-content: center;
     align-items: center;
 }
 
+.figure-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 20rem;
+    height: 20rem;
+}
 
+.figure-1 #img1 {
+    position: absolute;
+    z-index: 1;
+    width: 23rem;
+    height: auto;
+}
+
+.figure-1 #img2 {
+    position: absolute;
+    top: 3rem;
+    left: 2rem;
+    z-index: 2;
+    width: 23rem;
+    height: auto;
+}
+
+.figure-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 20rem;
+    height: 20rem;
+}
+
+.figure-2 #img1 {
+    position: absolute;
+    z-index: 1;
+    width: 23rem;
+    height: auto;
+}
+
+.figure-2 #img2 {
+    position: absolute;
+    top: 3rem;
+    left: 2rem;
+    z-index: 2;
+    width: 23rem;
+    height: auto;
+}
