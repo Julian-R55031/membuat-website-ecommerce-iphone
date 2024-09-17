@@ -100,9 +100,7 @@ nav {
 }
 
 .figure-1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: inline-block;
     position: relative;
     width: 20rem;
     height: 20rem;
@@ -122,6 +120,35 @@ nav {
     z-index: 2;
     width: 23rem;
     height: auto;
+}
+
+.figure-1-h1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    font-size: 2rem;
+    font-family: roboto;
+    z-index: 3;
+}
+
+.figure-1-h1:hover {
+    opacity: 1;
+}
+
+.figure-1-h1 a {
+    text-decoration: none;
+}
+
+.figure-1:hover {
+    cursor: pointer;
+    filter: blur(5px);
 }
 
 .figure-2 {
