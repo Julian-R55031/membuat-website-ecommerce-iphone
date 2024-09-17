@@ -12,6 +12,10 @@ body {
     padding-bottom: 1000px;
 }
 
+main {
+    background-color: var(--primary);
+}
+
 ::-webkit-scrollbar {
     display: none;
 }
@@ -43,14 +47,18 @@ nav {
     font-size: 2rem;
 }
 
-main {
-    background-color: var(--primary);
+.container-content1 h1 {
+    color: #fff;
+    font-size: 3rem;
+    font-family: roboto;
 }
 
 .container-content1 {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    padding: 5rem;
 }
 
 .container-content1 img {
