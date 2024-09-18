@@ -99,30 +99,33 @@ nav {
     align-items: center;
 }
 
+/* figure 1 */
+
 .figure-1 {
     display: inline-block;
     position: relative;
     width: 20rem;
     height: 20rem;
+    cursor: pointer;
 }
 
-.figure-1 #img1 {
+.figure-1 .image1 {
     position: absolute;
+    right: 1rem;
     z-index: 1;
     width: 23rem;
     height: auto;
 }
 
-.figure-1 #img2 {
+.figure-1 .image2 {
     position: absolute;
-    top: 3rem;
-    left: 2rem;
+    top: 1rem;
     z-index: 2;
     width: 23rem;
     height: auto;
 }
 
-.figure-1-h1 {
+.overlay {
     position: absolute;
     top: 0;
     left: 0;
@@ -138,40 +141,69 @@ nav {
     z-index: 3;
 }
 
-.figure-1-h1:hover {
+.text {
+    color: white;
+    text-shadow: 
+        -2px -2px 0 #000,  
+        2px -2px 0 #000,  
+        -2px 2px 0 #000,  
+        2px 2px 0 #000;
+}
+
+.figure-1:hover .overlay {
     opacity: 1;
 }
 
-.figure-1-h1 a {
+.overlay > .text {
     text-decoration: none;
 }
 
-.figure-1:hover {
+.figure-1:hover .image1 {
     cursor: pointer;
     filter: blur(5px);
 }
 
+.figure-1:hover .image2 {
+    cursor: pointer;
+    filter: blur(5px);
+}
+
+/* figure 2 */
+
 .figure-2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: inline-block;
     position: relative;
     width: 20rem;
     height: 20rem;
+    cursor: pointer;
 }
 
-.figure-2 #img1 {
+.figure-2 .image1 {
     position: absolute;
+    right: 1rem;
     z-index: 1;
     width: 23rem;
     height: auto;
 }
 
-.figure-2 #img2 {
+.figure-2 .image2 {
     position: absolute;
-    top: 3rem;
-    left: 2rem;
+    top: 1rem;
     z-index: 2;
     width: 23rem;
     height: auto;
+}
+
+.figure-2:hover .overlay {
+    opacity: 1;
+}
+
+.figure-2:hover .image1 {
+    cursor: pointer;
+    filter: blur(5px);
+}
+
+.figure-2:hover .image2 {
+    cursor: pointer;
+    filter: blur(5px);
 }
