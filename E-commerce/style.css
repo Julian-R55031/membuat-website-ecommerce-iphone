@@ -48,12 +48,6 @@ nav {
     font-size: 2rem;
 }
 
-.container-content1 h1 {
-    color: #fff;
-    font-size: 3rem;
-    font-family: roboto;
-}
-
 .container-content1 {
     display: flex;
     justify-content: center;
@@ -61,6 +55,16 @@ nav {
     flex-direction: column;
     padding: 5rem;
 }
+
+.container-content1 h1 {
+    position: absolute;
+    bottom: 24rem;
+    color: #fff;
+    font-size: 3rem;
+    font-family: roboto;
+    /* z-index: 2; */
+}
+
 
 .container-content1 img {
     width: 75rem;
@@ -94,6 +98,12 @@ nav {
 }
 
 .container-content2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+figure {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -204,6 +214,86 @@ nav {
 }
 
 .figure-2:hover .image2 {
+    cursor: pointer;
+    filter: blur(5px);
+}
+
+/* figure 3 */
+
+.figure-3 {
+    display: inline-block;
+    position: relative;
+    width: 20rem;
+    height: 20rem;
+    cursor: pointer;
+}
+
+.figure-3 .image1 {
+    position: absolute;
+    right: 1rem;
+    z-index: 1;
+    width: 23rem;
+    height: auto;
+}
+
+.figure-3 .image2 {
+    position: absolute;
+    top: 1rem;
+    z-index: 2;
+    width: 23rem;
+    height: auto;
+}
+
+.figure-3:hover .overlay {
+    opacity: 1;
+}
+
+.figure-3:hover .image1 {
+    cursor: pointer;
+    filter: blur(5px);
+}
+
+.figure-3:hover .image2 {
+    cursor: pointer;
+    filter: blur(5px);
+}
+
+/* figure 4 */
+
+.figure-4 {
+    display: inline-block;
+    position: relative;
+    width: 20rem;
+    height: 20rem;
+    cursor: pointer;
+}
+
+.figure-4 .image1 {
+    position: absolute;
+    right: 1rem;
+    z-index: 1;
+    width: 23rem;
+    height: auto;
+}
+
+.figure-4 .image2 {
+    position: absolute;
+    top: 1rem;
+    z-index: 2;
+    width: 23rem;
+    height: auto;
+}
+
+.figure-4:hover .overlay {
+    opacity: 1;
+}
+
+.figure-4:hover .image1 {
+    cursor: pointer;
+    filter: blur(5px);
+}
+
+.figure-4:hover .image2 {
     cursor: pointer;
     filter: blur(5px);
 }
