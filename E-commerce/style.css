@@ -6,6 +6,7 @@
     box-sizing: border-box;
     --primary: #000;
     --secondary: #fff;
+    --third: #b8b8b8;
 }
 
 body {
@@ -58,10 +59,10 @@ nav {
 
 .container-content1 h1 {
     position: absolute;
-    bottom: 24rem;
-    color: #fff;
-    font-size: 3rem;
-    font-family: roboto;
+    bottom: 27rem;
+    color: var(--third);
+    font-size: 2rem;
+    font-family: arial;
     /* z-index: 2; */
 }
 
