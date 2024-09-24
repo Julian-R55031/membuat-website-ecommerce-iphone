@@ -10,11 +10,43 @@
             justify-content: center;
             align-items: center;
         }
+
+        .buy-button {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        button {
+            background-color: aqua;
+            border: 2px solid  #000;
+            border-radius: 0.8rem;
+            color: #000;
+            cursor: pointer;
+        }
+
+        h2 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: roboto;
+            color: #3a3838;
+        }
     </style>
 </head>
 <body>
     <main>
         <h1 style="font-family: roboto; color: #3a3838; " >Choose iphone type to buy</h1>
     </main>
+    <div class="buy-button">
+        <button onclick="myButton()" >Beli Coy</button>
+    </div>
+    <h2></h2>
+    <script>
+        function myButton() {
+            document.querySelector('h1').innerText="Purchase Succesfully";
+            document.querySelector('h2').innerText="Thank You!";
+        };
+    </script>
 </body>
 </html>
