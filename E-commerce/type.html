@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Choose Type</title>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <style>
         main {
             display: flex;
@@ -44,8 +45,12 @@
     <h2></h2>
     <script>
         function myButton() {
-            document.querySelector('h1').innerText="Purchase Succesfully";
-            document.querySelector('h2').innerText="Thank You!";
+            document.querySelector('h2').innerHTML='Thank you for purchasing'
+            Swal.fire({
+    title: "Purchase Successfully!",
+    text: "Thank You!",
+    icon: "success"
+    });
         };
     </script>
 </body>
